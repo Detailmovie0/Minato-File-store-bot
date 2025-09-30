@@ -15,7 +15,7 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://minato:minato@cluster0.lzhzp8x.
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002153653982 -1002701318235 -1002623667730"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002623667730"))
 
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002282783745"))
 
@@ -69,7 +69,7 @@ USER_REPLY_TEXT = "❌Sry You can't Able to Message me !\n\n» My Owner ➥ <blo
 
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Super Advance File Store bot 🌿 \n\n I am created by ➥ 「 @moviehub4u_update 」</b>")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} You can join the given channels ..\n\n 𝐒𝐨 please join and  “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} You can join our all channels ..\n\n 𝐒𝐨 please join and  “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
 
 
 
