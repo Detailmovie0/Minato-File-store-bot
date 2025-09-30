@@ -15,7 +15,7 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://minato:minato@cluster0.lzhzp8x.
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002282783745"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002153653982 -1002701318235 -1002623667730"))
 
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1002282783745"))
 
@@ -28,7 +28,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
 START_PIC = os.environ.get("START_PIC", "https://graph.org/file/b1266d63235f95afb3db1-10273b6cbb01406207.jpg")
 F_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/95cefa3272feec077b28a-78591fe27d4215c260.jpg")
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8050")
@@ -65,17 +65,17 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌Sry You can't Able to Message me !\n\n» My Owner 👉 "
+USER_REPLY_TEXT = "❌Sry You can't Able to Message me !\n\n» My Owner ➥ <blockquote><b>@moviehub4u_update</b></blockquote>"
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Advance File Store bot 😈 \n\n I was created by 👉@Tech_freak_tamil </b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Super Advance File Store bot 🌿 \n\n I am created by ➥ 「 @moviehub4u_update 」</b>")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} You must join the given channels ..\n\n 𝐒𝐨 please join and  “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} You can join the given channels ..\n\n 𝐒𝐨 please join and  “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
 
 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6299192020)
+ADMINS.append(6964203412)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
@@ -100,14 +100,14 @@ def LOGGER(name: str) -> logging.Logger:
    
 
 class Txt(object):
-    about = f"""<b>😈 My Name :</b> <a href=''>[AW] File store bot 😈 </a>
+    about = f"""<b>My Name :</b> <a href=''>M◍viε⁠ ｡Hᴗ⁠b ｡4U File store bot</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/tech_freak_tamil'>TFT BOTS</a>
-<b>🛡️ :</b> <a href='https://t.me/+NITVxLchQhYzNGZl'>TFT Developer</a>
+<b>📢 Update Channel :</b> <a href='https://t.me/moviehub4u_update'>M◍viε⁠ ｡Hᴗ⁠b ｡4U</a>
+<b>🛡️ Support Group:</b> <a href='http://t.me/disscus_moviehub4u'>M◍viε⁠ ｡Hᴗ⁠b ｡4U</a>
     
-<b>😈 Bot Made By :</b> @tech_freak_tamil"""
+<b>𝖩𝗈𝗂𝗇  ➥ :</b>「 @moviehub4u_update 」"""
 
 
 # Tech freak 
