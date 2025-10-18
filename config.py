@@ -65,9 +65,9 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "❌Sry You can't Able to Message me !\n\n» My Owner ➥ <blockquote><b>@moviehub4u_update</b></blockquote>"
+USER_REPLY_TEXT = "<b></blockquote>❌Sorry You can't Message me in personal !\n\n» My Owner ➥ </blockquote>@moviehub4u_update</blockquote></b>"
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hi {first} Friend I am a Super Advance File Store bot 🌿 \n\n I am created by ➥ 「 @moviehub4u_update 」</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hey {first} Friend I am a Super Advance File Store bot 🌿 \n\n I am created by ➥ 「 @moviehub4u_update 」</b>")
 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} You can join our all channels ..\n\n 𝐒𝐨 please join and  “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
 
