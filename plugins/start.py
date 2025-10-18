@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
 
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>IMPORTANT</u> ❗️</b>\n\nThis Anime File Will Be Deleted In {file_auto_delete} ⚠️.\n\n🫡 Please Forward This Anime File To Safe place And Start Downloading There.")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote> 〄 〄 〄 IMPORTANT 〄 〄 〄 \n\nᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ {file_auto_delete} (ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ).\n\nᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ꜰɪʟᴇ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.</blockquote></b>")
 
         # Schedule the file deletion
         asyncio.create_task(delete_files(TFT_MSG, client, k))
@@ -99,11 +99,11 @@ async def start_command(client: Client, message: Message):
         return
     else:
         reply_markup = InlineKeyboardMarkup([[
-            InlineKeyboardButton("⁂ Update Channel", url="https://t.me/moviehub4u_update"),
-            InlineKeyboardButton("⁂ Support Group", url="http://t.me/disscus_moviehub4u")
+            InlineKeyboardButton("「 Update Channel 」", url="https://t.me/moviehub4u_update"),
+            InlineKeyboardButton("「 Support Group 」", url="http://t.me/disscus_moviehub4u")
             ],[
-            InlineKeyboardButton("⁂ Help", callback_data='help'),
-            InlineKeyboardButton("⁂ About", callback_data="about")
+            InlineKeyboardButton("「 Help 」", callback_data='help'),
+            InlineKeyboardButton("「 About 」", callback_data="about")
             ],[
             InlineKeyboardButton("⌦ Close ⌫", callback_data="close")
         ]])
@@ -134,16 +134,16 @@ async def not_joined(client: Client, message: Message):
 
     # Check if the first and second channels are both set
     if FORCE_SUB_CHANNEL_1 is not None and message.from_user.id not in ADMINS and not await is_subscribed1(filter, client, message):
-        buttons.append([InlineKeyboardButton(text="✧ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ✧", url=client.invitelink1)])
+        buttons.append([InlineKeyboardButton(text="➥ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 」", url=client.invitelink1)])
             
     if FORCE_SUB_CHANNEL_2 is not None and message.from_user.id not in ADMINS and not await is_subscribed2(filter, client, message):
-        buttons.append([InlineKeyboardButton(text="✧ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ✧", url=client.invitelink2)])
+        buttons.append([InlineKeyboardButton(text="➥ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 」", url=client.invitelink2)])
         
     if FORCE_SUB_CHANNEL_3 is not None and message.from_user.id not in ADMINS and not await is_subscribed3(filter, client, message):
-        buttons.append([InlineKeyboardButton(text="✧ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ✧", url=client.invitelink3)])
+        buttons.append([InlineKeyboardButton(text="➥ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 」", url=client.invitelink3)])
                   
     if FORCE_SUB_CHANNEL_4 is not None and message.from_user.id not in ADMINS and not await is_subscribed4(filter, client, message):
-        buttons.append([InlineKeyboardButton(text="✧ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ✧", url=client.invitelink4)])
+        buttons.append([InlineKeyboardButton(text="➥ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 」", url=client.invitelink4)])
             
 
     # Append "Try Again" button if the command has a second argument
