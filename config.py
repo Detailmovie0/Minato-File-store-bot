@@ -23,7 +23,7 @@ FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002393557941"
 
 FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002594005991"))
 
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002497307753"))
 
 START_PIC = os.environ.get("START_PIC", "https://graph.org/file/b1266d63235f95afb3db1-10273b6cbb01406207.jpg")
 F_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/95cefa3272feec077b28a-78591fe27d4215c260.jpg")
@@ -65,9 +65,9 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 
 
-USER_REPLY_TEXT = "<b></blockquote>❌Sorry You can't Message me in personal !\n\n» My Owner ➥ </blockquote>@moviehub4u_update</blockquote></b>"
+USER_REPLY_TEXT = "<b></blockquote>Sorry 😐 You can't Message me in personal !\n\n» Management By ➥ </blockquote><a href='https://t.me/moviehub4u_update'><b>M◍viε⁠ ｡Hᴗ⁠b ｡4U 🌿</b></a>\n\n Ownee ➥ <a href='https://t.me/dvl_naruto_06'><b>Ɲ 么 ʀ ᴜ Ƭ͢ ᴏ メ 🌿</b></a></blockquote></b>"
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hey {first} Friend I am a Super Advance File Store bot 🌿 \n\n I am created by ➥ 「 @moviehub4u_update 」</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hey {first} Friend I am a Super Advance File Store bot 🌿 \n\n I am created by ➥ 「 <a href='https://t.me/moviehub4u_update'>M◍viε⁠ ｡Hᴗ⁠b ｡4U 🌿</a> 」</b>")
 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐒𝐨𝐫𝐫𝐲 {first} You can join our all channels ..\n\n 𝐒𝐨 please join and  “𝐍𝐨𝐰 𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞” 𝐛𝐮𝐭𝐭𝐨𝐧....!")
 
@@ -107,7 +107,7 @@ class Txt(object):
 <b>📢 Update Channel :</b> <a href='https://t.me/moviehub4u_update'>M◍viε⁠ ｡Hᴗ⁠b ｡4U</a>
 <b>🛡️ Support Group:</b> <a href='http://t.me/disscus_moviehub4u'>M◍viε⁠ ｡Hᴗ⁠b ｡4U</a>
     
-<b>𝖩𝗈𝗂𝗇  ➥ :</b>「 @moviehub4u_update 」"""
+<b>𝖩𝗈𝗂𝗇  ➥ :</b>「 <a href='https://t.me/moviehub4u_update'><b>M◍viε⁠ ｡Hᴗ⁠b ｡4U 🌿</b></a> 」"""
 
 
 # Tech freak 
