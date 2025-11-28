@@ -102,9 +102,10 @@ async def start_command(client: Client, message: Message):
             InlineKeyboardButton("「 Update Channel 」", url="https://t.me/moviehub4u_update"),
             InlineKeyboardButton("「 Support Group 」", url="http://t.me/disscus_moviehub4u")
             ],[
-            InlineKeyboardButton("「 Help 」", callback_data='help'),
+            InlineKeyboardButton("「 Help 」", callback_data="help"),
             InlineKeyboardButton("「 About 」", callback_data="about")
             ],[
+            InlineKeyboardButton("「 Home 」", callback_data="start"),
             InlineKeyboardButton("⌦ Close ⌫", callback_data="close")
         ]])
         await message.reply_photo(
